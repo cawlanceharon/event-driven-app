@@ -1,0 +1,16 @@
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# dotenv environment variable files
+.env
+
+# AWS and other security credentials
+*.pem
+*.key
+
+# OS generated files
+.DS_Store
+Thumbs.db

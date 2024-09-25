@@ -1,0 +1,19 @@
+
+{
+  "name": "event-driven-app",
+  "version": "1.0.0",
+  "description": "Event-driven architecture using Node.js, AWS SQS, and Salesforce",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "sqs-consumer": "node sqsConsumer.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1000.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsforce": "^1.10.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

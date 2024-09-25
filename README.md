@@ -1,0 +1,3 @@
+# Event-Driven Architecture with Node.js, AWS SQS, and Salesforce
+This project implements an event-driven architecture where **Node.js (Express.js)** acts as both a producer and consumer of events. The project queues events to **AWS SQS**, and a separate consumer service processes the queued messages and sends data to **Salesforce** asynchronously.
+For setup instructions and more details, refer to the full documentation in this file.
